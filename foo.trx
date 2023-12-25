@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="d6d78251-713d-405e-b043-f5189c2fb4cf" name="Nares@SHANNU 2023-12-24 16:58:49" runUser="SHANNU\Nares" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-12-24T16:58:49.4055004+05:30" queuing="2023-12-24T16:58:49.4055004+05:30" start="2023-12-24T16:39:00.7863215+05:30" finish="2023-12-24T16:58:49.4055004+05:30" />
+  <TestSettings name="default" id="e592d974-6b35-41f6-9b82-6badf3e40773">
+    <Deployment runDeploymentRoot="Nares_SHANNU_2023-12-24_16_58_49" />
+  </TestSettings>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="0" executed="0" passed="0" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SHANNU" outcome="Error" timestamp="2023-12-24T16:58:49.3593233+05:30">
+        <Text>The active test run was aborted. Reason: Test host process crashed</Text>
+      </RunInfo>
+    </RunInfos>
+    <CollectorDataEntries>
+      <Collector agentName="SHANNU" uri="datacollector://microsoft/TestPlatform/Extensions/Blame/v1" collectorDisplayName="Blame">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="SHANNU\Sequence_faa6e1dfc2f940d382d01abf7917f6e6.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>
